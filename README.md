@@ -1,0 +1,2 @@
+# mypluralize
+mypluralize - for module
