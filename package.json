@@ -1,0 +1,31 @@
+{
+  "name": "mypluralize",
+  "version": "1.0.0",
+  "description": "mypluralize - for module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hygjob/mypluralize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hygjob/mypluralize/issues"
+  },
+  "homepage": "https://github.com/hygjob/mypluralize#readme",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.33",
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
